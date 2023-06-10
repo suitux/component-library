@@ -11,13 +11,13 @@
 {
     "typescript/prettier": {
         "scope": "suitux.suitux",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "components/typescript/prettier"
     },
     "ui/avatar": {
         "scope": "suitux.suitux",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "components/ui/avatar"
     },

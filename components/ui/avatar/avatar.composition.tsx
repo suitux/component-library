@@ -1,7 +1,7 @@
 import React from 'react'
 import { Avatar } from './avatar'
 
-const AvatarWrapper = ({ children }: React.PropsWithChildren) => {
+const AvatarWrapper = ({ children }) => {
   return <div style={{ padding: 40, backgroundColor: 'black' }}>{children}</div>
 }
 
