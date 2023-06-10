@@ -15,14 +15,31 @@ export const AvatarDefaultColors = [
 ]
 
 export type AvatarProps = {
+  /** Alternative text */
   alt: string
+
+  /** Source */
   src?: string
+
+  /** Source set */
   srcSet?: string
+
+  /** Width of the avatar */
   width?: number
+
+  /** Height of the avatar */
   height?: number
+
+  /** Duration of the animation. Lower duration translates to more speed */
   animationDuration?: number
+
+  /** Colors of the animation */
   colors?: string[]
+
+  /** Blur of the border */
   borderBlur?: number
+
+  /** Size of the border */
   borderSize?: number
 }
 
