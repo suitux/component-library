@@ -1,6 +1,6 @@
 # Suitux Components - React
 
-This project contains self created components.
+This project contains self created components stored in [my Bit cloud](https://bit.cloud/suitux/suitux)
 
 The project is using the [bit.dev](https://bit.dev/) tool to create the packages which will be used as dependencies on the React projects
 
