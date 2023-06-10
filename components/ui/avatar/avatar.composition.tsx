@@ -8,7 +8,7 @@ const AvatarWrapper = ({ children }) => {
 export const BasicAvatar = () => {
   return (
     <AvatarWrapper>
-      <Avatar alt={'avatar'} src={'https://avatars.githubusercontent.com/u/6298488?v=4'} width={50} />
+      <Avatar alt={'avatar'} src={'https://www.xavirincon.com/src/img/circle-xavi.png'} width={50} />
     </AvatarWrapper>
   )
 }
@@ -18,7 +18,7 @@ export const AvatarWithCustomColors = () => {
     <AvatarWrapper>
       <Avatar
         alt={'avatar'}
-        src={'https://avatars.githubusercontent.com/u/6298488?v=4'}
+        src={'https://www.xavirincon.com/src/img/circle-xavi.png'}
         width={50}
         colors={['#ffc600', '#f3ca4c', '#1047ef']}
       />
@@ -42,7 +42,7 @@ export const AvatarWithBoostedAnimation = () => {
 export const AvatarWithNoBlur = () => {
   return (
     <AvatarWrapper>
-      <Avatar alt={'avatar'} src={'https://avatars.githubusercontent.com/u/6298488?v=4'} width={50} borderBlur={0} />
+      <Avatar alt={'avatar'} src={'https://www.xavirincon.com/src/img/circle-xavi.png'} width={50} borderBlur={0} />
     </AvatarWrapper>
   )
 }
@@ -52,7 +52,7 @@ export const AvatarWithNoBlurAndBigBorder = () => {
     <AvatarWrapper>
       <Avatar
         alt={'avatar'}
-        src={'https://avatars.githubusercontent.com/u/6298488?v=4'}
+        src={'https://www.xavirincon.com/src/img/circle-xavi.png'}
         width={50}
         borderBlur={0}
         borderSize={20}
