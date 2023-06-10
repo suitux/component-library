@@ -1,0 +1,33 @@
+.avatar {
+  position: relative;
+  border-radius: 100%;
+  height: fit-content;
+  z-index: 1;
+
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.9);
+  }
+
+  .colors {
+    position: absolute;
+    z-index: -1;
+    animation: steam linear infinite;
+    border-radius: 100%;
+  }
+}
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

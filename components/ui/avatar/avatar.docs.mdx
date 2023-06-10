@@ -1,0 +1,34 @@
+---
+description: Avatar component
+---
+
+import { Avatar } from './avatar'
+
+A component that renders an avatar with animated borders
+
+### Component usage
+
+```tsx live
+<div style={{ padding: 50, backgroundColor: 'black' }}>
+  <Avatar
+    alt={'avatar'}
+    src={'https://www.xavirincon.com/src/img/circle-xavi.png'}
+    width={200}
+    colors={[
+      '#fb0094',
+      '#0000ff',
+      '#00ff00',
+      '#ffff00',
+      '#ff0000',
+      '#fb0094',
+      '#0000ff',
+      '#00ff00',
+      '#ffff00',
+      '#ff0000'
+    ]}
+    animationDuration={20}
+    borderBlur={20}
+    borderSize={4}
+  />
+</div>
+```
